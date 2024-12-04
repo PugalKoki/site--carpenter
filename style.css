@@ -1,0 +1,313 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.overall{
+  
+    width:100%;
+    /* background-color:blanchedalmond; */
+}
+  .heading{
+    text-align: center;
+    padding:15px;}
+  
+    
+.sectionone,.sectionthree{
+    height:600px;
+    width:100%;
+    background-color:blue;
+   
+    /* border-radius: 20px; */
+    
+    
+}
+.sectionone{
+    margin-bottom: 80px;
+}
+.sectionthree{
+    margin-top: 80px;
+}
+
+.sectionone img,.sectionthree img{
+   
+    height:600px;
+    width:100%;
+    object-fit: cover;
+    opacity: 45%;
+    position: relative;
+    /* border-radius: 20px; */
+}
+.box1{
+    position: absolute;
+    /* background-color: plum; */
+    height:600px;
+    width:100%;
+    /* border-radius: 20px; */
+    top:67px;
+    display: grid;
+    grid-template-columns: auto auto  ;
+    /* padding-top:20px; */
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+}
+
+
+.box1 h3 span{
+    opacity: 85%;
+}
+.box1 .request{
+    /* background-color:green; */
+    /* height:170px; */
+    width:430px;
+}
+.box1 :nth-child(3) h1{
+    margin-bottom:15px;
+
+}
+
+.box1 h2:hover,.box1 h3:hover{
+    transform: scale(1.1);
+ 
+    
+}
+
+.sectiontwo{
+    /* background-color:orange; */
+    height:100px;
+    width:50%;
+    font-size:20px;
+    margin: auto;
+}
+.box3{
+    height:600px;
+    width:100%;
+    /* background-color:lightblue; */
+    /* border-radius: 20px; */
+    position: absolute;
+    top:927px;
+    color:white;
+    padding:50px;
+}
+.box3 h2,.servicesp {
+    text-align: center;
+   
+}
+.servicesp{
+    padding:20px;
+}
+.servicelist{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:50px;
+    
+}
+/* .servicelist div{ */
+    /* background-color: aquamarine; */
+    /* height:170px;
+    width:160px; */
+/* } */
+.servicelist img{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    
+}
+.servicelist div:hover{
+   
+        transform: scale(1.1);
+     
+        
+    }
+
+
+.servicelist h5{
+ 
+   width:150px;
+   text-align: center;
+   font-size: 15px;
+}
+.box4{
+    /* padding:30px; */
+    display:grid;
+    grid-template-columns: auto auto  ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box4 .about{
+    /* background-color: cadetblue; */
+    width:900px;
+    height:450px;
+}
+.nicesign img{
+    width:400px;
+    height:700px;
+}
+.box4 h1{
+    font-size:35px;
+    padding:20px;
+}
+.box4 p{
+    font-size:20px;
+    padding:20px;
+}
+.box4 .about h5{
+    border-radius:35px;
+    border: none;
+    border: 1px solid grey;
+    width:250px;
+    padding:10px;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+}
+.about a{ 
+    text-decoration: none;
+   
+
+}
+.about a h5:hover{
+    transform: scale(1.1);
+    background-color:orangered;
+    color: white;
+
+
+}
+
+.box5{
+    height:400px;
+    width:100%;
+    /* border-radius: 10px; */
+    background-color: orangered;
+    /* margin-top:50px; */
+    color:white;
+    padding-top:30px;
+    
+    
+}
+.box5 h2{
+    text-align: center;
+    padding:20px;
+}
+
+.box6{
+    /* background-color:blue; */
+    text-align: center;
+    width:100%;
+    height:400px;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   flex-direction: column;
+}
+.box6 h2{
+    padding:35px;
+    font-size: 40px;
+}
+.box6 i{
+    font-size: 50px;
+    color: rgb(223, 206, 206);
+}
+.box6 p{
+    width:60%;
+    padding: 30px;
+    font-size: 20px;
+    color:darkgray;
+}
+.box6 a{
+    text-decoration: none;
+    color: orangered;
+
+
+}
+
+.lastsection{
+    height:500px;
+    width:100%;
+    background-color:blue;
+    
+}
+.lastsection img{
+    height:500px;
+    width:100%;
+    object-fit: cover;
+    opacity: 45%;
+    position: relative;
+
+
+}
+.box7{
+    /* background-color: plum; */
+    height:500px;
+    width:50%;
+    position: absolute;
+    top:3031px;
+    color:white;
+    padding:100px;
+    padding-left:50px;
+}
+.box7 h1{
+    font-size: 50px;
+    padding:10px;
+}
+.box7 p{
+    font-size:25px;
+    opacity: 80%;
+    padding:10px;
+}
+.box7 button{
+    background-color: orangered;
+    border:none;
+    padding:10px;
+    border-radius:20px;
+    color:white;
+    font-size:15px;
+    margin-top:25 px;
+
+    
+}
+
+.box8{
+    text-align: center;
+    /* background-color: aqua; */
+    padding:50px;
+    font-size: 20px;
+    color:grey;
+}
+
+
+
+.logooverall {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    
+}
+.logo i{
+    font-size: 65px;
+    padding-top:20px;
+}
+.logo1,.logo2,.logo3{
+    /* background-color: aqua; */
+    height:270px;
+    width:300px;
+    text-align: center;
+}
+.logo1:hover,.logo2:hover,.logo3:hover{
+    transform: scale(1.1);
+    
+}
+.logo h3{
+    padding:15px;
+}
+
+@media screen and (min-width:320px) and (max-width:583px) {
+
+    
+}
